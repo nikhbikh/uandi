@@ -5,7 +5,7 @@
 layout: home
 ---
 
-Answers to Exercises  
+<span style="font-size:2em">Answers To Exercises<span/>
 
 {% for item in site.data.pdfs%}
   <a href="{{ site.baseurl }}/assets/pdfs/{{ item.pdf}}" >{{ item.name }}</a>
