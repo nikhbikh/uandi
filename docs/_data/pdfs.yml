@@ -1,0 +1,24 @@
+- name: "Ch. 1 Decisions under uncertainty"
+  pdf: ch1.pdf
+- name: "Ch. 2 Individual risk-bearing"
+  pdf: ch2.pdf
+- name: "Ch. 3 Comparative Statics"
+  pdf: ch3.pdf
+- name: "Ch. 4 Market equilibrium"
+  pdf: ch4.pdf
+- name: "Ch. 5 Information & informational decisions"
+  pdf: ch5.pdf
+- name: "Ch. 6 Information and markets"
+  pdf: ch6.pdf
+- name: "Ch. 7 Strategic uncertainty & equilibrium concepts"
+  pdf: ch7.pdf
+- name: "Ch. 8 Hidden actions and contract design"
+  pdf: ch8.pdf
+- name: "Ch. 9 Competition and hidden knowledge"
+  pdf: ch9.pdf
+- name: "Ch. 10 Market institutions"
+  pdf: ch10.pdf
+- name: "Ch. 11 Long run relationships"
+  pdf: ch11.pdf
+- name: "Ch. 12 Information transmission & aggregation"
+  pdf: ch12.pdf

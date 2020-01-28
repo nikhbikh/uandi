@@ -4,3 +4,10 @@
 
 layout: home
 ---
+
+Answers to Exercises  
+
+{% for item in site.data.pdfs%}
+  <a href="{{ site.baseurl }}/assets/pdfs/{{ item.pdf}}" >{{ item.name }}</a>
+{% endfor %}
+<a href="http://essentialmicroeconomics.com/OnLineReview/onlinereview.htm" >ON-LINE MATH REVIEW</a>
