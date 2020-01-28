@@ -1,7 +1,7 @@
 - name: Home
-  link: /
+  link: /uandi
 - name: About
-  link: /about.html
+  link: /uandi/about.html
 - name: Blog
-  link: /blog.html
+  link: /uandi/blog.html
 
