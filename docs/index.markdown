@@ -5,9 +5,19 @@
 layout: home
 ---
 
-<span style="font-size:2em">Answers To Exercises<span/>
+<div style="background-color:white;padding-top:2em;">
+  <p style="font-size:35px;color:#da2129;font-family:Times New Roman;text-align:center">
+  THE ANALYTICS OF UNCERTAINTY AND INFORMATION
+  </p>
+  <p style="font-size:25px;color:#da2129;font-family:Times New Roman;text-align:center">
+  2nd Edition
+  </p>
+  <p style="font-size:65px;color:#da2129;font-family:Times New Roman;text-align:center">
+  Answers to Exercises
+  </p>
 
-{% for item in site.data.pdfs%}
-  <a href="{{ site.baseurl }}/assets/pdfs/{{ item.pdf}}" >{{ item.name }}</a>
-{% endfor %}
-<a href="http://essentialmicroeconomics.com/OnLineReview/onlinereview.htm" >ON-LINE MATH REVIEW</a>
+  <img src="{{site.baseurl}}/assets/images/{{site.footer_image}}" height="auto" width="60%" 
+       style="display:block;margin-left:auto;margin-right:auto;"/>
+  <img src="{{site.baseurl}}/assets/images/CUP.gif"
+       style="display:block;margin-left:auto;margin-right:auto;"/>
+</div>
