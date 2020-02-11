@@ -18,6 +18,14 @@ layout: home
 
   <img src="{{site.baseurl}}/assets/images/{{site.footer_image}}" height="auto" width="60%" 
        style="display:block;margin-left:auto;margin-right:auto;"/>
+  <p style="font-size:25px;font-style:italic;color:#da2129;font-family:Times New Roman;text-align:center">
+  <br/>
+  Sushil Bikhchandani 
+  <br/>
+  Jack Hirshleifer
+  <br/>
+  John G. Riley
+  </p>
   <img src="{{site.baseurl}}/assets/images/CUP.gif"
        style="display:block;margin-left:auto;margin-right:auto;"/>
 </div>
