@@ -15,3 +15,6 @@ was an American economist and long-time professor at the University of Californi
 ## John G. Riley
 is Distinguished Professor of Economics at the University of California, Los Angeles. A Fellow of the Econometric Society, his research has appeared in eminent journals such as the American Economic Review, Econometrica, Journal of Political Economy, Quarterly Journal of Economics, Review of Economic Studies, Journal of Economic Theory, and the RAND Journal of Economics. Professor Riley is the author of [Essential Microeconomics](http://www.cambridge.org/us/academic/subjects/economics/microeconomics/essential-microeconomics?format=HB) (Cambridge University Press, 2012) and co-author, with the late Jack Hirshleifer, of the first edition of The Analytics of Uncertainty and Information (Cambridge University Press, 1992).
 
+<div style="text-align:center">
+  <img src="{{site.baseurl}}/assets/images/CUP.gif">
+</div>

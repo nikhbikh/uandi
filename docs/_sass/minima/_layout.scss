@@ -8,6 +8,10 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
+  a {
+    color: white;
+    background-color: rgb(181, 53, 43);
+  }
 }
 
 .site-title {
@@ -24,8 +28,11 @@
   }
 }
 
+.trigger {
+}
+
 .site-nav {
-  float: right;
+  text-align: center;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
@@ -37,13 +44,11 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: white;
     line-height: $base-line-height;
-
-    // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
-    }
+    background-color: rgb(181, 53, 43);
+    padding-right: 2em;
+    padding-left: 2em;
   }
 
   @include media-query($on-palm) {
