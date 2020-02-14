@@ -24,6 +24,7 @@ description: "Answers to Exercises"
 footer_image: "dice.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://uncertaintyandinformation.com" # the base hostname & protocol for your site, e.g. http://example.com
+google_analytics: "UA-158544327-1"
 
 # Build settings
 theme: minima
