@@ -173,19 +173,20 @@ pre {
  * Header
  */
 .header {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2) - #{$sidebar-width});
+  width:         calc(#{$content-width} - (#{$spacing-unit} * 2) - #{$sidebar-width});
   margin-right: auto;
-  margin-left: auto;
+  margin-left: $sidebar-width + $spacing-unit;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2) - #{$sidebar-width});
+    width:         calc(#{$content-width} - (#{$spacing-unit} * 2) - #{$sidebar-width});
+    margin-left: auto;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 }
 
@@ -194,22 +195,23 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2) - #{$sidebar-width});
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2) - #{$sidebar-width});
+  width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2) - #{$sidebar-width});
+  width:         calc(#{$content-width} - (#{$spacing-unit} * 2) - #{$sidebar-width});
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  padding-right: 15px;
+  padding-left: 15px;
   padding-top: 2em;
   display: inline-block;
   background-color: white;
+  white-space: normal;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2) - #{$sidebar-width});
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2) - #{$sidebar-width});
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2) - #{$sidebar-width});
+    width:         calc(#{$content-width} - (#{$spacing-unit} * 2) - #{$sidebar-width});
+    padding-right: 5px;
+    padding-left: 5px;
   }
 }
 

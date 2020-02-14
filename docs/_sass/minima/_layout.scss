@@ -7,7 +7,6 @@
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
-  position: relative;
   a {
     color: white;
     background-color: rgb(181, 53, 43);
@@ -28,12 +27,63 @@
   }
 }
 
-.trigger {
-}
-
 .site-nav {
   text-align: center;
   line-height: $base-line-height * $base-font-size * 2.25;
+
+  .page-link {
+    color: white;
+    line-height: $base-line-height;
+    background-color: rgb(181, 53, 43);
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+}
+
+
+/**
+ * Site sidebar
+ */
+
+.site-sidebar {
+  height: 100%;
+  width: $sidebar-width;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 3em;
+  margin-left: 1em;
+  position: relative;
+
+  @include media-query($on-laptop) {
+    margin-right: 1em;
+  }
+
+  @include media-query($on-palm) {
+    width: 40px;
+    margin-left: auto;
+  }
+
+  a {
+    display: block;
+    @include relative-font-size(0.75);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 5px;
+    color: white;
+    background-color: rgb(181, 53, 43);
+  }
+  a:hover {
+    color: black;
+    background-color: #FF8762;
+    text-decoration: none;
+  }
+}
+
+
+.sidebar-nav {
+  text-align: center;
+  line-height: $base-line-height * $base-font-size * 2.25;
+
 
   .nav-trigger {
       display: none;
@@ -53,8 +103,7 @@
 
   @include media-query($on-palm) {
     position: absolute;
-    top: 9px;
-    right: $spacing-unit / 2;
+    left: 6px;
     background-color: $background-color;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
@@ -62,7 +111,7 @@
 
     label[for="nav-trigger"] {
       display: block;
-      float: right;
+      float: left;
       width: 36px;
       height: 36px;
       z-index: 2;
@@ -102,29 +151,6 @@
       }
       margin-left: 20px;
     }
-  }
-}
-
-
-/**
- * Site sidebar
- */
-
-.site-sidebar {
-  height: 100%;
-  width: $sidebar-width;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 3em;
-
-  a {
-    display: block;
-    @include relative-font-size(0.75);
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding-left: 5px;
-    color: white;
-    background-color: rgb(181, 53, 43);
   }
 }
 
@@ -204,6 +230,7 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
+  white-space:nowrap;
 }
 
 .page-heading {
